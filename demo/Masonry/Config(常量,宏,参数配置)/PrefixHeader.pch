@@ -1,0 +1,46 @@
+//
+//  PrefixHeader.pch
+//  Masonry
+//
+//  Created by LXY on 16/4/30.
+//  Copyright © 2016年 AVGD. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//masonry取消mas宏
+#define MAS_SHORTHAND
+
+//ViewController
+#import "YZGRootNavigationController.h"
+#import "YZGRootViewController.h"
+
+
+////third party
+#import <Masonry/Masonry.h>  /* 约束 */
+//#import "SVProgressHUD.h"  /* 提示框 */
+//#import "SIAlertView.h"  /* 弹出框 */
+//#import <TSMessages/TSMessageView.h>  /* 导航控制器提示消息 */
+//#import "SVHTTPClient.h"  /* 网络请求 */
+//#import <IQKeyboardManager/IQKeyboardManager.h>  /* 键盘 */
+//
+//// Model
+//#import <MJExtension/MJExtension.h>
+//
+////macro
+#import "Const.h"   /* 常量 */
+//#import "NetworkMacro.h"   /* 数据请求接口 */
+//#import "ConstMacro.h"   /* 宏定义 */
+//
+////自定义View
+//#import "YZGAlertView.h"
+//
+////类目
+//#import "UIView+Extend.h"
+
+
+#endif /* PrefixHeader_pch */
