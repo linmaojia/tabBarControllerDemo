@@ -13,7 +13,6 @@
 #import "YZGHomeViewController.h"
 #import "YZGCategoryViewController.h"
 #import "YZGMineViewController.h"
-#import "YZGCategoryViewController.h"
 #import "YZGShoppingCarVC.h"
 @interface YZGTabBarControllerConfig ()
 
